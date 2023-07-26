@@ -1,4 +1,4 @@
-# Java Reachability Playground Modified by SushilOhol For GCP DevSecOps
+# Java Reachability Playground Modified by SushilOhol For GCP DevSecOps.
 
 
 This is an intentionally vulnerable application. It was purposely designed to demonstrate the capabilities of Snyk's Reachable
