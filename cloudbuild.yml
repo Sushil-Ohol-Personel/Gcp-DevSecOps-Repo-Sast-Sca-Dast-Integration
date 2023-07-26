@@ -1,6 +1,6 @@
 steps:
   
-  #Execute SonarCloud Scan
+  #Execute SonarCloud Scan SAST (Static Application Security Testing)
   
   - name: maven:3-jdk-11
     entrypoint: mvn
