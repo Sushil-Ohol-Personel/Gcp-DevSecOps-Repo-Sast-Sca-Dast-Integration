@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
-    <artifactId>java-vulnerable-code-asecurityguru</artifactId>
+    <artifactId>java-vulnerable-code-SushilOhol</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -23,8 +23,8 @@
         </dependency>
 
 <!--#Change 1 - Changes for Unit Test Coverage Percentage Update on SonarCloud Dashboard
-#By ASecurityGuru
-#5/11/2022 11:14 AM IST
+#By SushilOhol
+#7/26/2023 11:14 AM IST
 #Default Location of CodeCoverage File is target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
 -->
 <dependency>
@@ -39,8 +39,8 @@
         <plugins>
 
 <!--#Change 2 - Changes for Unit Test Coverage Percentage Update on SonarCloud Dashboard
-#By ASecurityGuru
-#5/11/2022 11:14 AM IST
+#By Sushil Ohol
+#7/26/2023 11:14 AM IST
 #Default Location of CodeCoverage File is target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
 -->
             <plugin>
@@ -69,8 +69,8 @@
               </plugin>
 
 <!--# Changes for Software Composition Analysis Scan using Snyk
-    #By ASecurityGuru
-    #5/12/2022 11:14 AM IST
+    #By Sushil Ohol
+    #7/26/202311:14 AM IST
 -->
         <plugin>
           <groupId>io.snyk</groupId>
@@ -78,7 +78,7 @@
           <version>2.0.0</version>
           <inherited>false</inherited>
           <configuration>
-            <org>asecurityguru</org>
+            <org>sushil-snyk-personel-organization</org>
           </configuration>
         </plugin>
        </plugins>
